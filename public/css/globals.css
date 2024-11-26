@@ -69,3 +69,12 @@ p {
 }
 
 /* ----------------- General ------------------- */
+/* ---- Nav Bar ---- */
+nav {
+    background-color: var(--dark-pink);
+    ul {
+        li {
+            color: var(--light-pink);
+        }
+    }
+}
