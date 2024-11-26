@@ -86,6 +86,7 @@ nav {
         li {
             list-style: none;
             color: var(--light-pink);
+
             a {
                 text-decoration: none;
                 color: var(--light-pink);
@@ -96,5 +97,16 @@ nav {
         img {
             height: 30px;
         }
+    }
+}
+
+/* ---- Footer ---- */
+footer {
+    background-color: var(--dark-pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: var(--white);
     }
 }
