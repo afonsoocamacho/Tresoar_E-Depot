@@ -8,10 +8,8 @@
 </head>
 <body>
     <x-nav-bar></x-nav-bar>
-    <nav></nav>
+    
     {{ $slot }}
-    <footer>
-        <p>&copy; {{ date('Y') }} Tresoar E-Depot. All rights reserved.</p>
-    </footer>
+    <x-footer></x-footer>
 </body>
 </html>
