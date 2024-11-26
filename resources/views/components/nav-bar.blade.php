@@ -1,5 +1,5 @@
 <nav aria-label="Main Navigation">
-    <a href="https://tresoar.nl"><img src="" alt="Tresoar Logo" aria-label="Tresoar Home"></a>
+    <a href="https://tresoar.nl"><img src=" {{ asset('assets/icons/tresoar_logo.svg') }} " alt="Tresoar Logo" aria-label="Tresoar Home"></a>
     <ul>
         <li><a href="/" aria-label="Home Page">Home</a></li>
         <li><a href="/about" aria-label="About Page">About</a></li>
