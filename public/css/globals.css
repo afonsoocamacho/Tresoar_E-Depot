@@ -1,4 +1,24 @@
 /* ---------------- Variables ------------------ */
+/*---Fonts Imports---*/
+/* Normal Font */
+@font-face {
+    font-family: "Lynstone";
+    src: url("../assets/fonts/LynstoneWeb-VF-Upright-TEST-FONT.woff2")
+        format("woff2");
+    font-weight: 100 900; /* Supports weights from 100 to 900 */
+    font-stretch: 75% 125%; /* Supports width scaling */
+    font-style: normal; /* Normal style */
+}
+
+/* Italic Font */
+@font-face {
+    font-family: "LynstoneItalic";
+    src: url("../assets/fonts/LynstoneWeb-VF-Upright-TEST-FONT.woff2")
+        format("woff2");
+    font-weight: 100 900; /* Supports weights from 100 to 900 */
+    font-stretch: 75% 125%; /* Supports width scaling */
+    font-style: italic; /* Italic style */
+}
 
 :root {
     /* ------------ Colors ------------ */
@@ -43,7 +63,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: var(--primary-font);
+    font-family: var(--font-family-primary);
     background-color: var(--white);
     color: var(--black);
 }
@@ -108,5 +128,9 @@ footer {
     align-items: center;
     p {
         color: var(--white);
+
+        span {
+            font-family: sans-serif;
+        }
     }
 }
