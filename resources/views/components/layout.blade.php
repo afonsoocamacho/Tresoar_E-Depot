@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <x-nav-bar></x-nav-bar>
     <nav></nav>
     {{ $slot }}
     <footer>
