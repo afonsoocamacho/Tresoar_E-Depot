@@ -3,8 +3,8 @@
 @endpush
 
 <x-layout>
-    <x-search-bar></x-search-bar>
     <div class="main-content">
+        <x-search-bar></x-search-bar>
          <h1>HOME</h1>
     </div>
 </x-layout>
