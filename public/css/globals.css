@@ -55,7 +55,7 @@
     --font-kerning-optical: normal; /* Optical kerning */
     /* Font Weight */
     --font-weight-thin: 100; /* Thin weight */
-    --font-weight-regular: 400; /* Regular weight */
+    --font-weight-regular: 300; /* Regular weight */
     --font-weight-semibold: 600; /* SemiBold weight */
     --font-weight-bold: 700; /* Bold weight */
     --font-weight-black: 900; /* Black weight */
@@ -115,6 +115,8 @@ p {
     line-height: var(--line-height-auto); /* Auto leading */
     font-kerning: var(--font-kerning-optical); /* Optical kerning */
     letter-spacing: var(--letter-spacing-normal); /* Normal letter spacing */
+    margin: 0;
+    padding: 0;
 }
 .main-content {
     margin: 0 4.16666665%;
@@ -124,7 +126,7 @@ p {
 /* ---- Nav Bar ---- */
 nav {
     background-color: var(--dark-pink);
-    padding: 16px 60px;
+    padding: 1rem 4.16666665%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -171,12 +173,122 @@ nav {
 }
 
 /* ---- Footer ---- */
-footer {
+.footer-1 {
     background-color: var(--dark-pink);
     display: flex;
+    justify-content: space-between;
+    padding: 0 4.16666665%;
+    .main-footer {
+        margin-left: 1.5em; /* 24px */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top;
+        padding-top: 37px;
+        width: 100%;
+        height: 100%;
+        #logo-footer {
+            img {
+                height: 1.5em;
+            }
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            ul {
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+                margin: 0;
+                li {
+                    list-style: none;
+                    margin-bottom: 0.5rem;
+                    a {
+                        text-decoration: none;
+                        color: var(--light-pink);
+                    }
+                }
+                li:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .follow-us {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: top;
+            p {
+                color: var(--light-pink);
+                margin-bottom: 8px;
+            }
+            ul {
+                display: flex;
+                flex-direction: row;
+                padding: 0;
+                margin: 0;
+                li {
+                    list-style: none;
+                    margin-right: 0.5em;
+                    a {
+                        text-decoration: none;
+                        color: var(--light-pink);
+                    }
+                }
+            }
+        }
+        .newsletter-signup {
+            width: 26.3125em;
+            height: 62px;
+            padding: 1em;
+            background-color: var(--white);
+            p {
+                color: var(--black);
+                margin: 0;
+            }
+            .newsletter-email-input {
+                margin-top: 5px;
+                border: 1px solid #820046;
+                height: 35px;
+                display: flex;
+                justify-content: space-between;
+                input {
+                    width: 100%;
+                    font-size: 1rem;
+                    padding: 8px;
+                    border: none;
+                    caret-color: #820046;
+                }
+                input:focus {
+                    border-color: #820046;
+                    outline: #820046;
+                }
+                button {
+                    border: none;
+                    background-color: var(--white);
+
+                    .icon {
+                        width: 24px;
+                        height: 24px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
+/*
+.footer-2 {
+    background-color: var(--dark-pink);
+    color: white;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     p {
+        margin: 0;
         color: var(--white);
 
         span {
@@ -184,3 +296,4 @@ footer {
         }
     }
 }
+*/
