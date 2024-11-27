@@ -3,5 +3,7 @@
 @endpush
 
 <x-layout>
-    <h1>HOME</h1>
+    <div class="main-content">
+         <h1>HOME</h1>
+    </div>
 </x-layout>

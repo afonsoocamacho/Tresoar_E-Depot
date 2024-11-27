@@ -56,6 +56,22 @@
     --line-height-auto: auto; /* Auto line height */
     /* Font Kerning */
     --font-kerning-optical: normal; /* Optical kerning */
+    /* Font Weight */
+    --font-weight-thin: 100; /* Thin weight */
+    --font-weight-regular: 400; /* Regular weight */
+    --font-weight-semibold: 600; /* SemiBold weight */
+    --font-weight-bold: 700; /* Bold weight */
+    --font-weight-black: 900; /* Black weight */
+    /* Font Size */
+    --font-size-2xs: 0.75rem; /* Extra Extra Small */ /* 12px */
+    --font-size-xs: 0.875rem; /* Extra Small */ /* 14px */
+    --font-size-sm: 1rem; /* Small */ /* 16px */
+    --font-size-md: 1.125rem; /* Medium */ /* 18px */
+    --font-size-lg: 1.25rem; /* Large */ /* 20px */
+    --font-size-xl: 1.5rem; /* Extra Large */ /* 24px */
+    --font-size-2xl: 2rem; /* Extra Extra Large */ /* 32px */
+    --font-size-3xl: 2.25rem; /* Extra Extra Extra Large */ /* 36px */
+    --font-size-4xl: 2.5rem; /* Extra Extra Extra Large */ /* 40px */
 }
 
 /* ----------------- Globals ------------------- */
@@ -81,11 +97,30 @@ h6 {
         --letter-spacing-tracking
     ); /* Tracking letter spacing */
 }
+
+h1 {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-3xl); /* 36px */
+}
+
+h2 {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-xl); /* 24px */
+}
+
+h3 {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-lg); /* 20px */
+}
+
 p {
     font-weight: var(--font-weight-regular); /* Regular */
     line-height: var(--line-height-auto); /* Auto leading */
     font-kerning: var(--font-kerning-optical); /* Optical kerning */
     letter-spacing: var(--letter-spacing-normal); /* Normal letter spacing */
+}
+.main-content {
+    margin: 0 4.16666665%;
 }
 
 /* ----------------- General ------------------- */
