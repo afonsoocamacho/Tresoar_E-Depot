@@ -3,6 +3,7 @@
 @endpush
 
 <x-layout>
+    <x-search-bar></x-search-bar>
     <div class="main-content">
          <h1>HOME</h1>
     </div>
