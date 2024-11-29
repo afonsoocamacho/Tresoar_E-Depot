@@ -11,6 +11,6 @@ return [
     |
     */
 
-    'search' => 'Sykjen...'
+    'search' => 'Sykje...'
 
 ];
