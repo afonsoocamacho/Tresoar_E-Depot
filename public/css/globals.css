@@ -152,9 +152,9 @@ nav {
                 justify-content: center;
                 color: var(--light-pink);
                 img {
-                    height: 1.5em;
-                    width: 1.5em;
-                    margin-right: 1em;
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    margin-right: 1rem;
                 }
             }
         }
@@ -167,7 +167,7 @@ nav {
         align-items: center;
         justify-content: center;
         .logo {
-            height: 1.5em;
+            height: 1.5rem;
         }
     }
 }
@@ -189,7 +189,7 @@ nav {
         height: 100%;
         #logo-footer {
             img {
-                height: 1.5em;
+                height: 1.5rem;
             }
         }
         .links {
@@ -230,7 +230,7 @@ nav {
                 margin: 0;
                 li {
                     list-style: none;
-                    margin-right: 0.5em;
+                    margin-right: 0.5rem;
                     a {
                         text-decoration: none;
                         color: var(--light-pink);
@@ -239,9 +239,9 @@ nav {
             }
         }
         .newsletter-signup {
-            width: 26.3125em;
+            width: 26.3125rem;
             height: 62px;
-            padding: 1em;
+            padding: 1rem;
             background-color: var(--white);
             p {
                 color: var(--black);
