@@ -12,6 +12,10 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware) {
         //
+          // Prepend the Localization middleware
+          $middleware->web(prepend: [
+            \App\Http\Middleware\Localization::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
