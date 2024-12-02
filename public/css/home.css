@@ -38,6 +38,11 @@
         }
     }
 }
+.suggested-search-filters {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 1rem;
+}
 
 
 .card {
