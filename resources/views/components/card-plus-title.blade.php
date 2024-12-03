@@ -1,2 +1,2 @@
 <p class="suggested-search-filters" aria-label="{{$text}}">{{$text}}</p>
-<x-card></x-card>
+<x-cards-view></x-cards-view>
