@@ -92,4 +92,6 @@
     .card-text {
         font-size: var(--font-size-xs);
         text-decoration: underline;
+        font-weight: var(--font-weight-regular);
+        cursor: pointer;
     }

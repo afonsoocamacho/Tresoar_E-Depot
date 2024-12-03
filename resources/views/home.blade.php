@@ -6,8 +6,8 @@
     <div class="main-content">
         <x-search-bar></x-search-bar>
          <h1>HOME</h1>
-         <x-card-plus-title text="Recent searches"></x-card-plus-title>
-         <x-card-plus-title text="Popular topics"></x-card-plus-title>
+         <x-cards-view text="Recent searches"></x-cards-view>
+         <x-cards-view text="Popular topics"></x-cards-view>
         
     </div>
 </x-layout>
