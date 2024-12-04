@@ -59,7 +59,8 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
-    padding: 16px;
+    padding: 1rem;
+    box-sizing: border-box;
    
 }
     .card-img-top {
