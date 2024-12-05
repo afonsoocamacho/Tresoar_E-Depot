@@ -50,11 +50,16 @@
     background-image: url("../assets/images/hero-banner.png");
     background-size: cover;
     filter: grayscale(100%);
-    img {
-        z-index: 3;
+    .hero-banner-text {
+        filter: none !important;
+        z-index: 2;
+        img {
+            filter: none;
+            z-index: 3;
+        }
     }
 }
-.hero-banner::after {
+.hero-banner::before {
     content: "";
     position: absolute;
     width: 100%;
