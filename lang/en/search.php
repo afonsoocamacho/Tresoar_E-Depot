@@ -12,5 +12,5 @@ return [
     */
 
     'search' => 'Search...'
-
+    
 ];

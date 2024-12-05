@@ -4,7 +4,6 @@
 
 <x-layout>
     <div class="main-content">
-        <x-search-bar></x-search-bar>
          <!-- <h1>HOME</h1> -->
     </div>
         <x-hero-banner></x-hero-banner>
