@@ -46,23 +46,19 @@
     margin-bottom: 2rem;
     width: 100%;
     max-height: 39.875rem;
-    margin-top: 3.5rem;
-}
-.hero-banner-img {
-    width: 100%;
-    max-height: 39,875rem;
+    height: 39.875rem;
+    background-image: url("../assets/images/hero-banner.png");
+    background-size: cover;
     filter: grayscale(100%);
 }
-/* .hero-banner::before {
+.hero-banner::after {
     content: "";
     position: absolute;
-    top: 3.5rem;
     width: 100%;
     height: 39.875rem;
     background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
-    /*z-index: 1; /* Places it above the image */
-/*} 
-*/
+    z-index: 1; /* Places it above the image */
+}
 
 .suggested-search-filters {
     font-size: var(--font-size-xl);
@@ -72,7 +68,7 @@
 
 .cards-view {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
@@ -81,44 +77,42 @@
     max-height: 20.75rem;
     overflow: hidden; /* Prevents the image from overflowing the card */
     border: 1px solid var(--black); /* Add a border to the card */
-    display : flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
     padding: 1rem;
     box-sizing: border-box;
-   
 }
-    .card-img-top {
-        display : block;
-        height: auto; /* Maintains the aspect ratio */
-        object-fit: cover; /* Ensures the image covers the area without distortion */
-        
-    }
+.card-img-top {
+    display: block;
+    height: auto; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
 
-    .card-icon {
-        position: absolute;
-        z-index: 10;
-        top: 23px;
-        right: 23px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-    }
+.card-icon {
+    position: absolute;
+    z-index: 10;
+    top: 23px;
+    right: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 
-    .card-title {
-        font-size: var(--font-size-lg);
-        margin-bottom: 8px;
-    }
+.card-title {
+    font-size: var(--font-size-lg);
+    margin-bottom: 8px;
+}
 
-    .card-category {
-        font-size: var(--font-size-xs);
-        font-weight: var(--font-weight-semibold);
-    }
-    .card-text {
-        font-size: var(--font-size-xs);
-        text-decoration: underline;
-        font-weight: var(--font-weight-regular);
-        cursor: pointer;
-    }
+.card-category {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+}
+.card-text {
+    font-size: var(--font-size-xs);
+    text-decoration: underline;
+    font-weight: var(--font-weight-regular);
+    cursor: pointer;
+}
