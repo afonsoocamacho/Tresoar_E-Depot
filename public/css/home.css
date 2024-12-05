@@ -49,6 +49,7 @@
     height: 39.875rem;
     background-image: url("../assets/images/hero-banner.png");
     background-size: cover;
+    background-position: center;
     filter: grayscale(100%);
     .hero-banner-text {
         filter: none !important;
