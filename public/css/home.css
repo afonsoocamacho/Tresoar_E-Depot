@@ -47,15 +47,14 @@
     width: 100%;
     max-height: 39.875rem;
     height: 39.875rem;
-    background-image: url("../assets/images/hero-banner.png");
+    background-image: linear-gradient(black, black),
+        url("../assets/images/hero-banner.png");
     background-size: cover;
     background-position: center;
-    filter: grayscale(100%);
+    background-blend-mode: saturation;
     .hero-banner-text {
-        filter: none !important;
         z-index: 2;
         img {
-            filter: none;
             z-index: 3;
         }
     }
