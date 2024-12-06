@@ -10,7 +10,9 @@ return [
     | The following language lines are used in the search bar.
     |
     */
-
-    'search' => 'Sykje...'
+    'search'=> [
+        'search' => 'Sykje',
+        'search_placeholder' => 'Sykje...',
+    ],
 
 ];
