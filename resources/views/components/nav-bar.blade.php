@@ -1,5 +1,11 @@
 <nav aria-label="Main Navigation">
+    <div>
     <a href="https://tresoar.nl"><img class="logo" src=" {{ asset('assets/icons/tresoar_logo.svg') }} " alt="Tresoar Logo" aria-label="Tresoar Home"></a>
+    <div class="tresoar-links">
+    <a href="/" class="active"><p class="body1">E-Depot</p></a>
+    <a href="https://tresoar.nl"><p class="body1">Back to Tresoar</p></a>
+    </div>
+    </div>
     <ul>
         <li><a href="/" aria-label="Favorites"><img src="{{ asset('assets/icons/heart.svg') }}" alt=""></a></li>
         <li><a href="en/about" aria-label="Profile"><img src="{{ asset('assets/icons/user.svg') }}" alt=""></a></li>
