@@ -12,7 +12,7 @@ return [
     */
     'search'=> [
         'search' => 'Search',
-        'search_placeholder' => 'Search...',
+        'search_placeholder' => 'Search in the archive...',
     ],
     
 ];

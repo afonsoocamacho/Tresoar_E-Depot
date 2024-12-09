@@ -8,8 +8,6 @@
     </div>
         <x-hero-banner></x-hero-banner>
     <div class="main-content">    
-         <x-cards-view text="Recent searches"></x-cards-view>
-         <x-cards-view text="Popular topics"></x-cards-view>
-        
+         <x-cards-view text="Popular searches"></x-cards-view>
     </div>
 </x-layout>
