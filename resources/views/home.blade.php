@@ -9,5 +9,6 @@
         <x-hero-banner></x-hero-banner>
     <div class="main-content">    
          <x-cards-view text="Popular searches"></x-cards-view>
+         <x-map-view text="Search by map"></x-maps-view>
     </div>
 </x-layout>
