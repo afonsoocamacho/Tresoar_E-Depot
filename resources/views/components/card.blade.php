@@ -2,6 +2,6 @@
     <img src="{{ asset('assets/images/Rectangle_7.png') }}" alt="Card image" class="card-img-top">
     <span class="card-icon"> <img src="{{ asset('assets/icons/heart.svg') }}" alt="heart"> </span>
     <div class="card-body">
-        <h3 class="card-title">Halbertsmas factories B.V. in Grouw</h3>
+        <h3 class="card-title">{!! wordwrap($text, 26, '<br>') !!}</h3>
     </div>
 </div>

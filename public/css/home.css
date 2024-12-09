@@ -104,21 +104,24 @@
     margin-bottom: 2rem;
 }
 .card {
-    max-width: 19.5rem; /* allowing for the card to be contained in grid division of 4ths */
+    max-width: 19.5rem;
     max-height: 16.75rem;
-    overflow: hidden; /* Prevents the image from overflowing the card */
-    border: 1px solid var(--black); /* Add a border to the card */
+    overflow: hidden;
+    border: 1px solid var(--black);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between; /* Ensures even spacing within the card */
     position: relative;
     padding: 1rem;
     box-sizing: border-box;
 }
+
 .card-img-top {
     display: block;
-    height: auto; /* Maintains the aspect ratio */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+    height: 10rem; /* Fixed height to maintain consistency */
+    width: 100%; /* Ensure it spans the width of the card */
+    object-fit: cover; /* Prevent distortion */
+    margin-bottom: 1rem; /* Add consistent spacing below the image */
 }
 
 .card-icon {
@@ -136,15 +139,6 @@
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-semibold);
     margin-top: 8px;
+    word-break: break-word;
 }
 
-.card-category {
-    font-size: var(--font-size-xs);
-    font-weight: var(--font-weight-semibold);
-}
-.card-text {
-    font-size: var(--font-size-xs);
-    text-decoration: underline;
-    font-weight: var(--font-weight-regular);
-    cursor: pointer;
-}
