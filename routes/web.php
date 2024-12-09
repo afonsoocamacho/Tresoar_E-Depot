@@ -28,4 +28,8 @@ Route::prefix('{locale}')
         return view('contact');
     });
 
+    Route::get('/result', function () {
+        return view('result');
+    });
+
 });
