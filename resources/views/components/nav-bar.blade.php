@@ -3,13 +3,13 @@
     <a href="https://tresoar.nl"><img class="logo" src=" {{ asset('assets/icons/tresoar_logo.svg') }} " alt="Tresoar Logo" aria-label="Tresoar Home"></a>
     <div class="tresoar-links">
     <a href="/" class="active"><p class="body1">E-Depot</p></a>
-    <a href="https://tresoar.nl"><p class="body1">Back to Tresoar</p></a>
+    <a href="https://tresoar.nl"><p class="body1">{{__('all.links.back_tresoar')}}</p></a>
     </div>
     </div>
     <ul>
         <li><a href="/" aria-label="Favorites"><img src="{{ asset('assets/icons/heart.svg') }}" alt=""></a></li>
         <li><a href="en/about" aria-label="Profile"><img src="{{ asset('assets/icons/user.svg') }}" alt=""></a></li>
-        <li><a href="en/contact" aria-label="Language toggle"><img src="{{ asset('assets/icons/globe.svg') }}" alt="">EN</a></li>
+        <li><a href="en/contact" aria-label="Language toggle"><img src="{{ asset('assets/icons/globe.svg') }}" alt="">{{__('all.locale')}}</a></li>
     </ul>
     {{-- Fix the Href links --}}
 </nav>

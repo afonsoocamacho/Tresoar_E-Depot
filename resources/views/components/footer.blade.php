@@ -7,9 +7,11 @@
         </div>
     <div class="links">
         <ul>
-            <li><a href="/" aria-label="Home Page">Home</a></li>
-            <li><a href="/about" aria-label="About Page">About</a></li>
-            <li><a href="/contact" aria-label="Contact Page">Contact</a></li>
+            <li><a href="/" aria-label="{{__('search.links.account')}}">{{__('search.links.account')}}</a></li>
+            <li><a href="/about" aria-label="{{__('search.links.back_tresoar')}}">{{__('search.links.back_tresoar')}}</a></li>
+            <li><a href="/services" aria-label="{{__('search.links.faq')}}">{{__('search.links.faq')}}</a></li>
+            <li><a href="/news" aria-label="{{__('search.links.work_for_tresoar')}}">{{__('search.links.work_for_tresoar')}}</a></li>
+            <li><a href="/contact" aria-label="{{__('search.links.privacy_policy')}}">{{__('search.links.privacy_policy')}}</a></li>
         </ul>
     </div>
     <div class="follow-us">

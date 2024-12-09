@@ -4,6 +4,10 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
 use App\Http\Middleware\Localization;
 
+Route::get('/', function () {
+    return redirect(App::getLocale());
+});
+
 Route::prefix('{locale}') 
 ->middleware(Localization::class)
 ->group(function() {

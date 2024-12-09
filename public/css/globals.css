@@ -136,9 +136,9 @@ p {
 /* ---- Nav Bar ---- */
 nav {
     background-color: var(--dark-pink);
-    padding: 1rem 4.16666665%;
+    padding: 0.5rem 4.16666665%;
     padding-bottom: 0;
-    height: 2.5rem;
+    height: 3.125rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -147,6 +147,7 @@ nav {
         flex-direction: row;
         a {
             margin-bottom: 1rem;
+            margin-top: 0.5rem;
         }
         .tresoar-links {
             margin-left: 1.5rem; /* 24px */
@@ -155,6 +156,8 @@ nav {
                 margin-bottom: 0;
                 text-decoration: none;
                 padding-bottom: 16px;
+                padding-top: 16px;
+                margin-top: 0;
                 p {
                     color: var(--white);
                 }
@@ -163,6 +166,8 @@ nav {
                 background-color: var(--white);
                 margin-bottom: 0;
                 padding-bottom: 16px;
+
+                max-height: 3rem;
                 p {
                     color: var(--black);
                 }
@@ -179,6 +184,7 @@ nav {
 
         li {
             display: flex;
+            margin-top: 0.5rem;
             align-items: center;
             justify-content: center;
             list-style: none;

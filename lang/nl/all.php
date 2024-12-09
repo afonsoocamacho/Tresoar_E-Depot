@@ -10,9 +10,13 @@ return [
     | The following language lines are used in the search bar.
     |
     */
+    'locale'=> 'NL',
+    'nav'=> [
+        'back_tresoar' => 'Terug naar Tresoar',
+    ],
     'search'=> [
-        'search' => 'Sykje',
-        'search_placeholder' => 'Sykje...',
+        'search' => 'Zoeken',
+        'search_placeholder' => 'Zoeken...',
     ],
 
 ];
