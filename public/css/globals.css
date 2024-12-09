@@ -226,8 +226,12 @@ nav {
 .footer-1 {
     background-color: var(--dark-pink);
     display: flex;
+    height: 236px;
     justify-content: space-between;
     padding: 0 var(--dinamic-spacing);
+    img {
+        max-height: 138px;
+    }
     .main-footer {
         margin-left: 1.5em; /* 24px */
         display: flex;
@@ -236,7 +240,6 @@ nav {
         align-items: top;
         padding-top: 37px;
         width: 100%;
-        height: 100%;
         #logo-footer {
             img {
                 height: 1.5rem;
@@ -264,30 +267,41 @@ nav {
                 }
             }
         }
-        .follow-us {
-            display: flex;
-            flex-direction: column;
-            align-items: left;
-            justify-content: top;
-            p {
-                color: var(--light-pink);
-                margin-bottom: 8px;
+        .p3 {
+            .address {
+                margin-bottom: 0.5rem;
+                p {
+                    color: var(--light-pink);
+                    margin-bottom: 0.5rem;
+                }
             }
-            ul {
+            .follow-us {
+                margin-top: 1rem;
                 display: flex;
-                flex-direction: row;
-                padding: 0;
-                margin: 0;
-                li {
-                    list-style: none;
-                    margin-right: 0.5rem;
-                    a {
-                        text-decoration: none;
-                        color: var(--light-pink);
+                flex-direction: column;
+                align-items: left;
+                justify-content: top;
+                p {
+                    color: var(--light-pink);
+                    margin-bottom: 8px;
+                }
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    padding: 0;
+                    margin: 0;
+                    li {
+                        list-style: none;
+                        margin-right: 0.5rem;
+                        a {
+                            text-decoration: none;
+                            color: var(--light-pink);
+                        }
                     }
                 }
             }
         }
+
         .newsletter-signup {
             width: 26.3125rem;
             height: 62px;

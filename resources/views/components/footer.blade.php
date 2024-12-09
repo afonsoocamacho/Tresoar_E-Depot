@@ -7,12 +7,18 @@
         </div>
     <div class="links">
         <ul>
-            <li><a href="/" aria-label="{{__('search.links.account')}}">{{__('search.links.account')}}</a></li>
-            <li><a href="/about" aria-label="{{__('search.links.back_tresoar')}}">{{__('search.links.back_tresoar')}}</a></li>
-            <li><a href="/services" aria-label="{{__('search.links.faq')}}">{{__('search.links.faq')}}</a></li>
-            <li><a href="/news" aria-label="{{__('search.links.work_for_tresoar')}}">{{__('search.links.work_for_tresoar')}}</a></li>
-            <li><a href="/contact" aria-label="{{__('search.links.privacy_policy')}}">{{__('search.links.privacy_policy')}}</a></li>
+            <li><a href="/" aria-label="{{__('all.links.account')}}">{{__('all.links.account')}}</a></li>
+            <li><a href="/about" aria-label="{{__('all.links.back_tresoar')}}">{{__('all.links.back_tresoar')}}</a></li>
+            <li><a href="/services" aria-label="{{__('all.links.faq')}}">{{__('all.links.faq')}}</a></li>
+            <li><a href="/news" aria-label="{{__('all.links.work_for_tresoar')}}">{{__('all.links.work_for_tresoar')}}</a></li>
+            <li><a href="/contact" aria-label="{{__('all.links.privacy_policy')}}">{{__('all.links.privacy_policy')}}</a></li>
         </ul>
+    </div>
+    <div class="p3">
+    <div class="address">
+        <p>Boterhoek 1, 8911 DH Leeuwarden</p>
+        <p>058 - 789 07 89</p>
+        <p>info@tresoar.cnl</p>
     </div>
     <div class="follow-us">
         <p>Follow us</p>
@@ -22,6 +28,7 @@
             <li><a href="https://www.instagram.com/tresoar" aria-label="Instagram"><img src="{{ asset('assets/icons/heart.svg') }}" alt="Instagram"></a></li>
         </ul>
     </div>
+</div>
     <div class="newsletter-signup">
         <p>Sign-up for our Newsletter</p>
         <form action="">
@@ -34,8 +41,4 @@
     </div>
 </div>
 </div>
-{{-- <div class="footer-2">
-    <p> <span>&copy;</span> {{ date('Y') }} Tresoar E-Depot. All rights reserved.</p>
-</div> --}}
-    
 </footer>
