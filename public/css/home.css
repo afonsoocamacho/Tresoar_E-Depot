@@ -91,12 +91,39 @@
     z-index: 1; /* Places it above the image */
 }
 
-.suggested-search-filters {
-    font-size: var(--font-size-xl);
-    font-weight: var(--font-weight-semibold);
+.filters-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 1rem;
 }
 
+.suggested-search-filters {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+}
+
+.card-arrows {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.card-arrow-left,
+.card-arrow-right {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-arrow-left img,
+.card-arrow-right img {
+    width: 0.5rem; /* Adjust as needed */
+    height: 0.8125rem; /* Adjust as needed */
+}
 .cards-view {
     display: flex;
     flex-direction: row;
@@ -104,7 +131,7 @@
     margin-bottom: 2rem;
 }
 .card {
-    max-width: 19.5rem;
+    width: 19.5rem;
     max-height: 16.75rem;
     overflow: hidden;
     border: 1px solid var(--black);
