@@ -69,6 +69,10 @@
     --font-size-2xl: 2rem; /* Extra Extra Large */ /* 32px */
     --font-size-3xl: 2.25rem; /* Extra Extra Extra Large */ /* 36px */
     --font-size-4xl: 2.5rem; /* Extra Extra Extra Large */ /* 40px */
+
+    /* ------------ Spacing ------------ */
+    /* 4.16666665% */
+    --dinamic-spacing: calc((100vw - 1320px) / 2);
 }
 
 /* ----------------- Globals ------------------- */
@@ -129,14 +133,15 @@ p {
     font-weight: var(--font-weight-semibold); /* SemiBold */
 }
 .main-content {
-    margin: 0 4.16666665%;
+    max-width: 1320px;
+    margin: 0 auto;
 }
 
 /* ----------------- General ------------------- */
 /* ---- Nav Bar ---- */
 nav {
     background-color: var(--dark-pink);
-    padding: 0.5rem 4.16666665%;
+    padding: 0.5rem var(--dinamic-spacing);
     padding-bottom: 0;
     height: 3.125rem;
     display: flex;
@@ -222,7 +227,7 @@ nav {
     background-color: var(--dark-pink);
     display: flex;
     justify-content: space-between;
-    padding: 0 4.16666665%;
+    padding: 0 var(--dinamic-spacing);
     .main-footer {
         margin-left: 1.5em; /* 24px */
         display: flex;
