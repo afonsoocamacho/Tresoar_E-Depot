@@ -3,5 +3,6 @@
 @endpush
 
 <x-layout>
-    <h1>Result</h1>
+    <x-search-comp></x-search-comp>
+        <h1 class="h1">Result</h1>
 </x-layout>
