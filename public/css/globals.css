@@ -167,6 +167,11 @@ nav {
                     color: var(--white);
                 }
             }
+            a:hover {
+                border: 1px solid var(--white);
+                border-left: 0;
+                border-bottom: 0;
+            }
             a.active {
                 background-color: var(--white);
                 margin-bottom: 0;
@@ -344,6 +349,86 @@ nav {
         }
     }
 }
+/* ---- Search Bar Component ---- */
+.search-form {
+    width: 26.3125rem;
+    height: 62px;
+    background-color: var(--white);
+    p {
+        color: var(--black);
+        margin: 0;
+    }
+    .search-input {
+        border: 1px solid #820046;
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+        input {
+            width: 100%;
+            font-size: var(--font-size-lg);
+            padding: 8px;
+            padding-left: 6px;
+            border: none;
+            caret-color: #820046;
+        }
+        input:focus {
+            border-color: #820046;
+            outline: #820046;
+        }
+        button {
+            border: none;
+            background-color: var(--white);
+            padding-right: 0;
+            margin: 0px;
+
+            .icon {
+                width: 24px;
+                height: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .search-button {
+            padding: 16px 24px;
+            background-color: var(--dark-pink);
+            color: var(--white);
+            font-size: var(--font-size-sm);
+        }
+    }
+}
+.search-bar-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+    button {
+        border: 1px solid var(--dark-pink);
+        cursor: pointer;
+        background-color: var(--white);
+        height: 48px;
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        font-size: var(--font-size-sm); /* 16px */
+        font-weight: var(--font-weight-regular); /* Regular */
+        line-height: var(--line-height-auto); /* Auto leading */
+        font-kerning: var(--font-kerning-optical); /* Optical kerning */
+        font-family: var(--font-family-primary);
+        letter-spacing: var(
+            --letter-spacing-normal
+        ); /* Normal letter spacing */
+        margin-left: 1rem;
+        img {
+            margin-right: 5px;
+        }
+    }
+    .p1 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 /*
 .footer-2 {
     background-color: var(--dark-pink);

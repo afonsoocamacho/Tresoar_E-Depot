@@ -32,4 +32,8 @@ Route::prefix('{locale}')
         return view('result');
     });
 
+    Route::get('/results', function () {
+        return view('results');
+    });
+
 });

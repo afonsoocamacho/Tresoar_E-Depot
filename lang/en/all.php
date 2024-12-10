@@ -25,11 +25,21 @@ return [
     'search'=> [
         'search' => 'Search',
         'search_placeholder' => 'Search in the archive...',
+        'documents' => 'Documents',
+        'folders' => 'Folders',
+        'other_filters' => 'Other filters',
+        'sort_by' => [
+            'sort_by' => 'Sort by',
+            'relevance' => 'Relevance',
+            'date ascending' => 'Date Ascending',
+            'date descending' => 'Date Descending',
+
+        ]
     ],
 
     'hero' => [
-        'title' => 'THE WORLDS #1 ONLINE ENCYCLOPEDIA',
-        'text' => 'Search over 200 individual encyclopedias and reference books from the worlds most trusted publishers.',
+        'title' => 'The e-Depot of the National Archives is more than just memory space',
+        'text' => 'Digital information is reliably and sustainably stored, managed and kept accessible',
     ],
     
 ];
