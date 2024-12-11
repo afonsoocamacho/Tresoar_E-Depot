@@ -12,11 +12,6 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: saturation;
-    img {
-        z-index: 3;
-        max-height: 8.625rem;
-        max-width: 4.25rem;
-    }
     .hero-banner-text {
         z-index: 2;
         color: var(--white);
@@ -26,7 +21,7 @@
         align-items: center;
         flex-direction: column;
         h1 {
-            margin-top: 4.75rem;
+            margin-top: 13.625rem;
             margin-bottom: 1rem;
         }
         p {
