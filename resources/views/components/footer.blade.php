@@ -18,7 +18,7 @@
     <div class="address">
         <p>Boterhoek 1, 8911 DH Leeuwarden</p>
         <p>058 - 789 07 89</p>
-        <p>info@tresoar.cnl</p>
+        <p>info@tresoar.nl</p>
     </div>
     <div class="follow-us">
         <p>Follow us</p>

@@ -36,6 +36,19 @@ return [
 
         ]
     ],
+    'results'=> [
+        'results' => 'Results',
+        'folder' => 'Folder',
+        'folders' => 'Folders',
+        'document' => 'Document',
+        'documents' => 'Documents',
+        'period' => 'Period',
+        'category' => 'Category',
+        'no_results' => 'No results found',
+        'search_again' => 'Search again',
+        'search_suggestions' => 'Search suggestions',
+        'search_suggestions_text' => 'Check your spelling, try different keywords or more general keywords',
+    ],
 
     'hero' => [
         'title' => 'The e-Depot of the National Archives is more than just memory space',
