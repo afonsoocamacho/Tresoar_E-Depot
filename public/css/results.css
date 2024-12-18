@@ -189,3 +189,11 @@
         color: var(--dark-pink);
     }
 }
+.number-results {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.results > *:first-child {
+    margin-top: 0px;
+}

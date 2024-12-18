@@ -8,7 +8,7 @@
     </div>
         <x-hero-banner></x-hero-banner>
     <div class="main-content">    
-         <x-cards-view text="Popular searches"></x-cards-view>
-         <x-map-view text="Search by map"></x-maps-view>
+         <x-cards-view text="{{__('all.home.popular_searches')}}"></x-cards-view>
+         <x-map-view text="{{__('all.home.search_by_map')}}"></x-maps-view>
     </div>
 </x-layout>

@@ -47,6 +47,7 @@ return [
         'period' => 'Period',
         'category' => 'Category',
         'no_results' => 'No results found',
+        'results-found' => 'Results found',
         'search_again' => 'Search again',
         'search_suggestions' => 'Search suggestions',
         'search_suggestions_text' => 'Check your spelling, try different keywords or more general keywords',
@@ -57,4 +58,8 @@ return [
         'text' => 'Digital information is reliably and sustainably stored, managed and kept accessible',
     ],
     
+    'home' =>[
+        'popular_searches' => 'Popular searches',
+        'search_by_map' => 'Search by map',
+    ],
 ];
