@@ -30,10 +30,18 @@ Route::prefix('{locale}')
 
     Route::get('/result', function () {
         return view('result');
-    });
+    })->name('result.page');
 
     Route::get('/results', function () {
         return view('results');
-    });
+    })->name ('results.page');
 
 });
+
+Route::get('/set-locale/{locale}', function ($locale) {
+    if (in_array($locale, ['en', 'nl', 'fy'])) { // Add supported locales here
+        session(['locale' => $locale]);
+    }
+    return redirect()->back(); // Redirect back to the previous page
+})->name('set-locale');
+

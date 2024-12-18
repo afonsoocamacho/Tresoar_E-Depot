@@ -351,20 +351,20 @@ nav {
 }
 /* ---- Search Bar Component ---- */
 .search-form {
-    width: 26.3125rem;
     height: 62px;
-    background-color: var(--white);
+
     p {
         color: var(--black);
         margin: 0;
     }
     .search-input {
-        border: 1px solid #820046;
         height: 48px;
+
         display: flex;
         justify-content: space-between;
+        border: 1px solid #820046;
         input {
-            width: 100%;
+            width: 424px;
             font-size: var(--font-size-lg);
             padding: 8px;
             padding-left: 6px;
@@ -390,10 +390,13 @@ nav {
             }
         }
         .search-button {
-            padding: 16px 24px;
+            margin-left: 8px;
+            box-sizing: border-box;
+            height: 48px;
+            padding: 0 24px;
             background-color: var(--dark-pink);
             color: var(--white);
-            font-size: var(--font-size-sm);
+            font-size: var(--font-size-lg);
         }
     }
 }

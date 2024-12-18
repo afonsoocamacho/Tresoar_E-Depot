@@ -30,5 +30,11 @@
 
     {{ $slot }}
     <x-footer></x-footer>
+
+    <script>
+       function testRedirect() {
+        window.location = "https://www.example.com"; // Use a valid URL
+    }
+    </script>
 </body>
 </html>
