@@ -19,6 +19,8 @@ return [
         'faq' => 'FAQ',
         'work_for_tresoar' => 'Work for Tresoar',
         'privacy_policy' => 'Privacy Policy',
+        'newsletter-signup' => 'Sign-up for our Newsletter',
+        'follow-us' => 'Follow us',
     ],
     'locale'=> 'EN',
 

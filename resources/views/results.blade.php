@@ -4,7 +4,7 @@
 
 <x-layout>
     <x-search-comp></x-search-comp>
-    
+
     <section class="main-content">
         <x-document-component docName="Notariaat provincie Friesland" docDescription="Naamljst der predikaten, hervormde gemeenten van Friesland - second part" period="1900-2000" category="Notary, Finances"></x-document-component>
         <div class="division"></div>

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
 use App\Http\Middleware\Localization;
 
 Route::get('/', function () {
@@ -38,10 +39,9 @@ Route::prefix('{locale}')
 
 });
 
-Route::get('/set-locale/{locale}', function ($locale) {
-    if (in_array($locale, ['en', 'nl', 'fy'])) { // Add supported locales here
-        session(['locale' => $locale]);
-    }
-    return redirect()->back(); // Redirect back to the previous page
-})->name('set-locale');
+Route::get('{lang}', function ($lang) {
+    Session::put('locale', $lang);
+    App::setLocale($lang);
+    return redirect()->back();
+})->name('locale.switch');
 

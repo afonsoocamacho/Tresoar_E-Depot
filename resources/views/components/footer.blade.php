@@ -16,12 +16,21 @@
     </div>
     <div class="p3">
     <div class="address">
-        <p>Boterhoek 1, 8911 DH Leeuwarden</p>
-        <p>058 - 789 07 89</p>
-        <p>info@tresoar.nl</p>
+        <p>
+            <a href="https://maps.app.goo.gl/TM4BdZtuWAPj5HnM7" target="_blank" rel="noopener noreferrer">
+                Boterhoek 1, 8911 DH Leeuwarden
+            </a>
+        </p>
+        <p>
+            <a href="tel:+31587890789">058 - 789 07 89</a>
+        </p>
+        <p>
+            <a href="mailto:info@tresoar.nl">info@tresoar.nl</a>
+        </p>
+        
     </div>
     <div class="follow-us">
-        <p>Follow us</p>
+        <p>{{__('all.links.follow-us')}}</p>
         <ul>
             <li><a href="https://www.facebook.com/tresoar" aria-label="Facebook"><img src="{{ asset('assets/icons/heart.svg') }}" alt="Facebook"></a></li>
             <li><a href="https://www.twitter.com/tresoar" aria-label="Twitter"><img src="{{ asset('assets/icons/heart.svg') }}" alt="Twitter"></a></li>
@@ -30,7 +39,7 @@
     </div>
 </div>
     <div class="newsletter-signup">
-        <p>Sign-up for our Newsletter</p>
+        <p>{{__('all.links.newsletter-signup')}}</p>
         <form action="">
             @csrf
             <div class="newsletter-email-input">
